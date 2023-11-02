@@ -14,10 +14,10 @@ import java.util.List;
 @Controller
 public class VizitkaController {
   private final List <Vizitka> seznamVizitek = List.of(
-          new Vizitka("Godrik Nebelvír", "Nebelvír", "Věžní 1", "Královice 27401", "GN@lev.com","www.skorobezhlavynick.com","123456789"),
-          new Vizitka("Rowena Havraspárská", "Havraspár", "Věžní 2", "Počepice 26255", null,"www.sedadama.com","987654321"),
-          new Vizitka("Helga Mrzimorská", "Mrzimor", "Přízemní 8", "Hlína 66491", "HM@jezevec.com","www.tlustymnich.com","321654987"),
-          new Vizitka("Salazar Zmijozel", "Zmijozel", "Sklepní 666", "Zlosyň 27744", "SZ@had.com","www.krvavybaron.com",null)
+          new Vizitka("Godrik Nebelvír", "Nebelvír", "Věžní 1", "Šternberk 78501", "GN@lev.com","www.skorobezhlavynick.com","123456789"),
+          new Vizitka("Rowena Havraspárská", "Havraspár", "Věžní 2", "Jihlava 58601", null,"www.sedadama.com","987654321"),
+          new Vizitka("Helga Mrzimorská", "Mrzimor", "Kuchařská 10", "Praha 19014", "HM@jezevec.com","www.tlustymnich.com","321654987"),
+          new Vizitka("Salazar Zmijozel", "Zmijozel", "Sklepní 66/6", "Rýmařov 79342", "SZ@had.com","www.krvavybaron.com",null)
   );
 
   //eit
